@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+h1
+{
+    font-size: 2.6rem;
+    font-weight: 800;    
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    color:rgb(238, 11, 105);
+}
+
+.navbar-brand:hover
+{
+    color:black;
+}
+
+.nav-item a
+{
+    font-family: sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover
+{
+    color:rgb(238, 11, 105);
+}
+.far, .fab
+{
+    color:rgb(238, 11, 105);
+    font-size: 1.5rm;
+    cursor: pointer;
+}
+
+.main
+{
+    background: url(img/heroy.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main p
+{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.main h1
+{
+    font-size: 5rem;
+    font-weight:900;
+}
+
+.btn2
+{
+    height: 45px;
+    width: 40%;
+    color: white;
+    background: rgb(238, 11, 105);
+    border:none;
+    outline:none;
+    font-weight:bold;
+    transition: all 0.4s;
+}
+.btn2:hover
+{
+    border:1px solid rgb(238, 11, 105);
+    background: transparent;
+    color:rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+
+.btn3
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: #000000;
+    border: none;
+    outline:none;
+    background: #fff;
+    cursor: all 0.4s;
+}
+
+.btn3:hover
+{
+    background: rgb(238, 11, 105);
+    color:#fff;
+    transition: all 0.4s;
+
+}
+
+.zoom-n-rotate 
+{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zoom-n-rotate img
+{
+    transition:transform .5s ease-in-out;
+}
+
+.zoom-n-rotate:hover img
+{
+    transform: scale(1.5);
+}
+
+.product
+{
+    background: rgb(246, 243, 243);
+}
+
+.discount
+{
+    height: 50px;
+    width:50px;
+    background: rgb(238, 11, 105);
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: #fff;
+    position: absolute;
+    top:15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.circle
+{
+    height: 70px;
+    width:70px;
+    background: #fff;
+    color: #000000;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.mix:hover .circle
+{
+    transition:all 0.4s;
+    opacity: 1;
+}
+.circle:hover
+{
+    background: #000000;
+    color: #fff;
+    transition: all 0.4s;
+}
+.control
+{
+    margin-left: 20px;
+    border: none;
+    background: none;
+    padding: 8px;
+    font-size: 1.2rem;
+    color:rgb(238, 11, 105);
+    border-bottom: 2px solid rgb(238, 11, 105);
+}
+.iconic
+{
+    text-align: justify;
+    font-family: 'prompt', sans-serif;
+}
+
+.icon
+{
+    
+    font-size: 2.8rem;
+    color:rgb(238, 11, 105);
+}
+
+.news
+{
+    background: #000000;
+    font-family: 'prompt', sans-serif;
+    bottom: 0;
+}
+.news a
+{
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    cursor:pointer;
+}
+
+.news a:hover
+{
+    color: rgb(238, 11, 105);
+    padding-left: 5px;
+    transition: all 0.4s ;
+}
+
+.btn4
+{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: rgb(238, 11, 105);
+    font-weight: bold;
+}
+
+.sub
+{
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border:1px solid #fff;
+}
+
+.circle-bottom
+{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    color:white;
+    background: rgb(53, 49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.circle-bottom:hover
+{
+    background: #fff;
+    color:rgb(53, 49, 49);
+}
